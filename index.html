@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styles Czcionek</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            display: flex;
+           flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .font-style-box {
+            background-color: white;
+            border: 2px solid #ccc;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+           
+        }
+
+        .font-style-box h3 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .przyklady {
+            font-size: 18px;
+        }
+
+        .font1 .przyklady {
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .font2 .przyklady {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+        }
+
+        .font3 .przyklady{
+            font-family: 'Arial', sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .font4 .przyklady {
+            font-family: 'Arial', sans-serif;
+            font-size: 16px;
+            font-style: italic;
+        }
+
+        .font5 .przyklady {
+            font-family: 'Verdana', sans-serif;
+            font-size: 18px;
+            text-align: center;
+        }
+
+        .font6 .przyklady {
+            font-family: 'Georgia', serif;
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+
+        .font7 .przyklady {
+            font-family: 'Arial', sans-serif;
+            font-size: 18px;
+            text-decoration: underline;
+        }
+
+        .font8 .przyklady {
+            font-family: 'Arial', sans-serif;
+            font-size: 18px;
+            letter-spacing: 2px;
+        }
+
+        .font9 .example-text {
+            font-family: 'Arial', sans-serif;
+            font-size: 18px;
+            line-height: 1.8;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="font-style-box font1">
+            <h3>Inna czcionka</h3>
+            <p class="przyklady">Gregory</p>
+        </div>
+
+        <div class="font-style-box font2">
+            <h3>Krój czcionki: Serif</h3>
+            <p class="przyklady">Tekst</p>
+        </div>
+
+        <div class="font-style-box font3">
+            <h3>Pogrubienie</h3>
+            <p class="przyklady">Buldog</p>
+        </div>
+
+        <div class="font-style-box font4">
+            <h3>Kursywa</h3>
+            <p class="przyklady">Szpuga.</p>
+        </div>
+
+        <div class="font-style-box font5">
+            <h3>Wycentrowane</h3>
+            <p class="przyklady">Igor.C</p>
+        </div>
+
+        <div class="font-style-box font6">
+            <h3>Wielkie litery</h3>
+            <p class="przyklady">Twardy</p>
+        </div>
+
+        <div class="font-style-box font7">
+            <h3>Podkreslenie</h3>
+            <p class="przyklady">Magda</p>
+        </div>
+
+        <div class="font-style-box font8">
+            <h3>Wieksze odstepy miedzy literami</h3>
+            <p class="przyklady">Julka</p>
+        </div>
+
+        <div class="font-style-box font9">
+            <h3>Wieksza odleglosc miedzy wierszami</h3>
+            <p class="przyklady">Studnia </p>
+        </div>
+    </div>
+
+</body>
+</html>
